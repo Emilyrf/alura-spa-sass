@@ -1,0 +1,213 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #675D50;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #40513B;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.9;
+}
+
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F3DEBA;
+  border-radius: 45px;
+}
+
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #675D50;
+  text-align: center;
+}
+
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #40513B;
+}
+
+#services {
+  margin: 80px;
+}
+
+#services h4 {
+  font-size: 1.2rem;
+  color: #40513B;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+
+#services h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+
+#services .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#services .cards .card {
+  width: 360px;
+  text-align: center;
+}
+
+#services .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #675D50;
+}
+
+#services .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #675D50;
+  line-height: 1.25rem;
+}
+
+#services .cards .card .container-img {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #40513B;
+}
+
+#services .cards .card .container-img img {
+  max-width: 100%;
+}
+
+#descont {
+  background-color: #F3DEBA;
+  padding: 4rem;
+  text-align: center;
+}
+
+#descont .text {
+  color: #675D50;
+}
+
+#descont .text h2 {
+  margin: 2rem;
+  font-size: 1.76471rem;
+}
+
+#descont .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+
+#descont .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+
+#descont .input:hover, #descont .input:focus-within {
+  -webkit-box-shadow: 1px 1px 8px 1px #675D50;
+          box-shadow: 1px 1px 8px 1px #675D50;
+  outline: none;
+}
+
+#descont button {
+  text-transform: uppercase;
+  margin-top: .75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #675D50;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px #675D50;
+  border-radius: 40px;
+}
+
+#descont button:hover {
+  background-color: #40513B;
+  border-color: #F3DEBA;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #675D50;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: -webkit-gradient(linear, right top, left top, from(#40513B), color-stop(#F3DEBA), to(#675D50));
+  background: linear-gradient(to left, #40513B, #F3DEBA, #675D50);
+}
+
+footer i {
+  color: red;
+}
+
+#tips {
+  padding: 1rem;
+  text-align: center;
+  margin: 80px;
+}
+
+#tips h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #675D50;
+}
+
+#tips h4 {
+  color: #40513B;
+  font-size: 1rem;
+}
+
+#tips p {
+  padding-top: 5px;
+  color: #675D50;
+  line-height: 1.35rem;
+}
+/*# sourceMappingURL=style.css.map */
